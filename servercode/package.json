@@ -1,0 +1,14 @@
+{
+  "name": "vercel-mmo-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "mongodb": "^6.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "vercel dev",
+    "seed": "curl -X POST http://localhost:3000/api/admin/seed -H 'Content-Type: application/json' -d '{\"secret\":\"change-me\"}'"
+  }
+}
