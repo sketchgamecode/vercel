@@ -1,6 +1,6 @@
-import { getDb } from "../../_mongo.js";
-import { withCORS } from "../../_cors.js";
-import { json, bad, WORLD, clamp } from "../../_utils.js";
+import { getDb } from "../_mongo.js";
+import { withCORS } from "../_cors.js";
+import { json, bad, WORLD, clamp } from "../_utils.js";
 
 async function handler(req, res) {
   if (req.method !== "POST") return bad(res, "POST only", 405);

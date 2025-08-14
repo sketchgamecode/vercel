@@ -1,6 +1,6 @@
-import { getDb } from "../../_mongo.js";
-import { withCORS } from "../../_cors.js";
-import { json, bad } from "../../_utils.js";
+import { getDb } from "../_mongo.js";
+import { withCORS } from "../_cors.js";
+import { json, bad } from "../_utils.js";
 
 // 演示：每级消耗 100 木头 + 50 矿石，防御 +10
 const COST = { wood: 100, ore: 50 };
