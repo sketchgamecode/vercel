@@ -1,6 +1,6 @@
-import { getDb } from "_mongo.js";
-import { withCORS } from "_cors.js";
-import { json, bad, inBounds, manhattan, now } from "_utils.js";
+import { getDb } from "./_mongo.js";
+import { withCORS } from "./_cors.js";
+import { json, bad, inBounds, manhattan, now } from "./_utils.js";
 
 // 简化规则：速度 1 格/秒（可自行调成每格 2~3 秒）
 const SPEED = 1;

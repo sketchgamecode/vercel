@@ -1,6 +1,6 @@
-import { getDb } from "_mongo.js";
-import { withCORS } from "_cors.js";
-import { json, bad, inBounds } from "_utils.js";
+import { getDb } from "./_mongo.js";
+import { withCORS } from "./_cors.js";
+import { json, bad, inBounds } from "./_utils.js";
 
 // 简单产出规则：tile.resources = { wood: r1, ore: r2, herb: r3, crystal: r4 }
 // 采集量 = (每分钟产出 * 挂机分钟数)
