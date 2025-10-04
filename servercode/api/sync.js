@@ -3,6 +3,8 @@ import { withCORS } from "./_cors.js";
 import { json, bad, WORLD, clamp } from "./_utils.js";
 
 async function handler(req, res) {
+  
+  console.log("move API called:", req.method, req.url, req.body); // 新增日志
   if (req.method !== "POST") return bad(res, "POST only", 405);
   const { playerId } = req.body || {};
   if (!playerId) return bad(res, "Missing playerId");

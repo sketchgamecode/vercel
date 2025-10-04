@@ -6,6 +6,7 @@ import { json, bad, inBounds, manhattan, now } from "./_utils.js";
 const SPEED = 1;
 
 async function handler(req, res) {
+  console.log("move API called:", req.method, req.url, req.body); // 新增日志
   if (req.method !== "POST") return bad(res, "POST only", 405);
   const { playerId, toX, toY } = req.body || {};
   if (!playerId || toX == null || toY == null) return bad(res, "Missing params");
