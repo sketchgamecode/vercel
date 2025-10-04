@@ -15,7 +15,6 @@ async function handler(req, res) {
 
   const inventory = player.inventory || { weapons: [] };
   const weapons = inventory.weapons || [];
-
   return json(res, {
     success: true,
     data: {
@@ -24,9 +23,9 @@ async function handler(req, res) {
       weapons: weapons.map(weapon => ({
         id: weapon.id,
         name: weapon.name,
-        quality: weapon.quality,
-        damage: weapon.finalStats.damage,
-        attributes: weapon.finalStats.attributes,
+        quality: weapon.quality || "未知",
+        damage: weapon.finalStats?.damage || 0,
+        attributes: weapon.finalStats?.attributes || {},
         obtainedAt: weapon.obtainedAt
       }))
     }
