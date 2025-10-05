@@ -8,6 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "seed": "curl -X POST http://localhost:3000/api/admin/seed -H 'Content-Type: application/json' -d '{\"secret\":\"change-me\"}'"
+    "seed": "curl -X POST http://localhost:3000/api/admin/seed -H 'Content-Type: application/json' -d '{\"secret\":\"change-me\"}'",
+    "start": "vercel dev"
   }
 }

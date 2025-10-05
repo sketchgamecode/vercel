@@ -1,8 +1,10 @@
 import { withCORS } from "../_cors.js";
 import { json, bad } from "../_utils.js";
+import fs from "fs";
+import path from "path";
 
-// 预定义底材池
-const BASES = [
+// Default pools (kept as fallback if no config file is found)
+const DEFAULT_BASES = [
   {
     baseId: "base_blade",
     weaponType: "blade",
@@ -41,8 +43,7 @@ const BASES = [
   },
 ];
 
-// 预定义词缀池
-const AFFIXES = [
+const DEFAULT_AFFIXES = [
   { affixId: "affix_copper", affixName: "铜", attributeModifiers: [{ type: "strength", value: 1 }] },
   { affixId: "affix_iron", affixName: "铁", attributeModifiers: [{ type: "strength", value: 2 }] },
   { affixId: "affix_steel", affixName: "钢", attributeModifiers: [{ type: "strength", value: 3 }] },
@@ -59,12 +60,44 @@ const AFFIXES = [
   { affixId: "affix_small", affixName: "小", attributeModifiers: [{ type: "levelRequirementReduction", value: -0.5 }] },
 ];
 
-// 品质概率与词缀数量
-const QUALITIES = [
+const DEFAULT_QUALITIES = [
   { name: "普通", chance: 0.6, affixCount: 0 },
   { name: "精制", chance: 0.3, affixCount: 1 },
   { name: "极品", chance: 0.1, affixCount: 2 },
 ];
+
+// Try multiple candidate locations for the config file so it works whether data/ is in project root or inside servercode
+function loadWeaponConfig() {
+  const candidates = [
+    path.resolve(process.cwd(), "data/weapon-config.json"),
+    path.resolve(process.cwd(), "servercode/data/weapon-config.json"),
+    path.resolve(process.cwd(), "../data/weapon-config.json"),
+    path.resolve(process.cwd(), "../servercode/data/weapon-config.json"),
+    path.resolve(process.cwd(), "../../data/weapon-config.json"),
+    path.resolve(process.cwd(), "../../servercode/data/weapon-config.json"),
+  ];
+  for (const p of candidates) {
+    try {
+      if (fs.existsSync(p)) {
+        try {
+          const raw = fs.readFileSync(p, "utf-8");
+          const cfg = JSON.parse(raw);
+          console.log('[weapon.generate] loaded config from', p);
+          return cfg || {};
+        } catch (e) {
+          console.warn('[weapon.generate] failed to parse config at', p, e.message);
+        }
+      } else {
+        // debug: file not present at this candidate
+        // console.log('[weapon.generate] config not found at', p);
+      }
+    } catch (e) {
+      console.warn("Failed to access candidate config path", p, e.message);
+    }
+  }
+  console.log('[weapon.generate] no runtime config found, using defaults');
+  return null;
+}
 
 // 随机函数
 function pickRandom(arr, count = 1) {
@@ -77,14 +110,15 @@ function pickRandom(arr, count = 1) {
   return count === 1 ? res[0] : res;
 }
 
-function pickQuality() {
+function pickQuality(qualities) {
+  const qlist = qualities || DEFAULT_QUALITIES;
   const r = Math.random();
   let acc = 0;
-  for (const q of QUALITIES) {
+  for (const q of qlist) {
     acc += q.chance;
     if (r < acc) return q;
   }
-  return QUALITIES[0];
+  return qlist[0];
 }
 
 function genId() {
@@ -105,6 +139,12 @@ async function handler(req, res) {
   const { playerLevel, playerClass } = req.body || {};
   if (typeof playerLevel !== "number") return bad(res, "Missing or invalid playerLevel", 400);
 
+  // load runtime config (admin edits write to data/weapon-config.json)
+  const runtimeCfg = loadWeaponConfig() || {};
+  const BASES = runtimeCfg.bases || DEFAULT_BASES;
+  const AFFIXES = runtimeCfg.affixes || DEFAULT_AFFIXES;
+  const QUALITIES = runtimeCfg.qualities || DEFAULT_QUALITIES;
+
   // 1. 随机底材
   const base = pickRandom(BASES);
 
@@ -114,7 +154,7 @@ async function handler(req, res) {
   if (finalDamage < 1) finalDamage = 1;
 
   // 3. 品质
-  const qualityObj = pickQuality();
+  const qualityObj = pickQuality(QUALITIES);
   const quality = qualityObj.name;
   const affixCount = qualityObj.affixCount;
   // 4. 随机词缀

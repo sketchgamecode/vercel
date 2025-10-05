@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>武器生成系统管理后台</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 32px; background: #f7f7fa; }
+    h1 { color: #333; }
+    .section { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; margin-bottom: 32px; padding: 24px; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 16px; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background: #f0f0f0; }
+    input, select, button, textarea { margin: 4px; padding: 4px; }
+    .flex { display: flex; gap: 16px; }
+    .preview { background: #f9f9f9; border: 1px solid #eee; padding: 12px; border-radius: 6px; }
+    .actions { margin-bottom: 16px; }
+    .error { color: #c00; }
+    .success { color: #090; }
+  </style>
+</head>
+<body>
+  <h1>武器生成系统管理后台</h1>
+  <div class="section">
+    <div class="actions">
+      <button onclick="loadConfig()">加载配置</button>
+      <button onclick="saveConfig()">保存配置</button>
+      <button onclick="previewWeapon()">预览武器</button>
+      <button onclick="resetForm()">重置表单</button>
+      <span id="status"></span>
+    </div>
+    <form id="configForm">
+      <h2>底材配置</h2>
+      <div id="basesTable"></div>
+      <button type="button" onclick="addBase()">添加底材</button>
+      <h2>词缀配置</h2>
+      <div id="affixesTable"></div>
+      <button type="button" onclick="addAffix()">添加词缀</button>
+      <h2>品质配置</h2>
+      <div id="qualitiesTable"></div>
+    </form>
+  </div>
+  <div class="section">
+    <h2>武器预览</h2>
+    <div class="flex">
+      <div>
+        玩家等级：<input type="number" id="playerLevel" value="10" min="1" style="width:60px;">
+        <button onclick="previewWeapon()">生成预览</button>
+      </div>
+      <div class="preview" id="weaponPreview"></div>
+    </div>
+  </div>
+  <script>
+    let config = null;
+    let originalConfig = null;
+    function showStatus(msg, type) {
+      const status = document.getElementById('status');
+      status.textContent = msg;
+      status.className = type || '';
+      setTimeout(() => { status.textContent = ''; }, 3000);
+    }
+    function loadConfig() {
+      fetch('/api/admin/config').then(r => r.json()).then(data => {
+        config = data;
+        originalConfig = JSON.parse(JSON.stringify(data));
+        renderConfig();
+        showStatus('配置已加载', 'success');
+      }).catch(e => showStatus('加载失败', 'error'));
+    }
+    function saveConfig() {
+      const payload = getConfigFromForm();
+      fetch('/api/admin/config', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).then(r => r.json()).then(data => {
+        showStatus('保存成功', 'success');
+        loadConfig();
+      }).catch(e => showStatus('保存失败', 'error'));
+    }
+    function resetForm() {
+      config = JSON.parse(JSON.stringify(originalConfig));
+      renderConfig();
+      showStatus('已重置', '');
+    }
+    function previewWeapon() {
+      const playerLevel = parseInt(document.getElementById('playerLevel').value) || 1;
+      fetch('/api/admin/preview-weapon', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ playerLevel })
+      }).then(r => r.json()).then(data => {
+        document.getElementById('weaponPreview').textContent = JSON.stringify(data, null, 2);
+      }).catch(e => document.getElementById('weaponPreview').textContent = '预览失败');
+    }
+    function renderConfig() {
+      renderBases();
+      renderAffixes();
+      renderQualities();
+    }
+    function renderBases() {
+      const bases = config.bases || [];
+      let html = '<table><tr><th>类型ID</th><th>类型</th><th>名称</th><th>伤害区间</th><th>浮动</th><th>等级需求</th><th>重量</th><th>操作</th></tr>';
+      bases.forEach((b, i) => {
+        html += `<tr>
+          <td><input value="${b.baseId}" onchange="config.bases[${i}].baseId=this.value"></td>
+          <td><input value="${b.weaponType}" onchange="config.bases[${i}].weaponType=this.value"></td>
+          <td><input value="${b.weaponTypeName}" onchange="config.bases[${i}].weaponTypeName=this.value"></td>
+          <td><input type="number" value="${b.damageRange.min}" style="width:40px;" onchange="config.bases[${i}].damageRange.min=parseInt(this.value)">-
+              <input type="number" value="${b.damageRange.max}" style="width:40px;" onchange="config.bases[${i}].damageRange.max=parseInt(this.value)"></td>
+          <td><input type="number" step="0.01" value="${b.damageVariance}" style="width:60px;" onchange="config.bases[${i}].damageVariance=parseFloat(this.value)"></td>
+          <td><input type="number" value="${b.levelRequirement}" style="width:40px;" onchange="config.bases[${i}].levelRequirement=parseInt(this.value)"></td>
+          <td><input type="number" value="${b.weight}" style="width:40px;" onchange="config.bases[${i}].weight=parseFloat(this.value)"></td>
+          <td><button onclick="config.bases.splice(${i},1);renderBases();">删除</button></td>
+        </tr>`;
+      });
+      html += '</table>';
+      document.getElementById('basesTable').innerHTML = html;
+    }
+    function addBase() {
+      config.bases = config.bases || [];
+      config.bases.push({ baseId:'', weaponType:'', weaponTypeName:'', damageRange:{min:0,max:0}, damageVariance:0, levelRequirement:1, weight:1 });
+      renderBases();
+    }
+    function renderAffixes() {
+      const affixes = config.affixes || [];
+      let html = '<table><tr><th>ID</th><th>名称</th><th>属性类型</th><th>数值</th><th>操作</th></tr>';
+      affixes.forEach((a, i) => {
+        const mod = a.attributeModifiers[0] || { type:'', value:0 };
+        html += `<tr>
+          <td><input value="${a.affixId}" onchange="config.affixes[${i}].affixId=this.value"></td>
+          <td><input value="${a.affixName}" onchange="config.affixes[${i}].affixName=this.value"></td>
+          <td><input value="${mod.type}" onchange="config.affixes[${i}].attributeModifiers[0].type=this.value"></td>
+          <td><input type="number" value="${mod.value}" style="width:60px;" onchange="config.affixes[${i}].attributeModifiers[0].value=parseFloat(this.value)"></td>
+          <td><button onclick="config.affixes.splice(${i},1);renderAffixes();">删除</button></td>
+        </tr>`;
+      });
+      html += '</table>';
+      document.getElementById('affixesTable').innerHTML = html;
+    }
+    function addAffix() {
+      config.affixes = config.affixes || [];
+      config.affixes.push({ affixId:'', affixName:'', attributeModifiers:[{type:'',value:0}] });
+      renderAffixes();
+    }
+    function renderQualities() {
+      const qualities = config.qualities || [];
+      let html = '<table><tr><th>名称</th><th>概率</th><th>词缀数量</th></tr>';
+      qualities.forEach((q, i) => {
+        html += `<tr>
+          <td><input value="${q.name}" onchange="config.qualities[${i}].name=this.value"></td>
+          <td><input type="number" step="0.01" value="${q.chance}" style="width:60px;" onchange="config.qualities[${i}].chance=parseFloat(this.value)"></td>
+          <td><input type="number" value="${q.affixCount}" style="width:40px;" onchange="config.qualities[${i}].affixCount=parseInt(this.value)"></td>
+        </tr>`;
+      });
+      html += '</table>';
+      document.getElementById('qualitiesTable').innerHTML = html;
+    }
+    function getConfigFromForm() {
+      return config;
+    }
+    window.onload = loadConfig;
+  </script>
+</body>
+</html>

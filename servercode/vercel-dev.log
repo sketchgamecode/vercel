@@ -1,0 +1,737 @@
+Vercel CLI 46.0.1
+> [debug] [2025-10-05T11:11:42.631Z] user supplied known subcommand: "dev"
+> [debug] [2025-10-05T11:11:42.924Z] Found ".git\config" - detected "E:\VercelWorkPath\server" as repo root
+? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) J[68G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JS[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSO[70G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON.[72G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON.p[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON.pa[74G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON.par[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON.pars[76G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON.parse[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON.parse([78G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON.parse(r[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON.parse(re[80G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n) JSON.parse(req
+[1A[81G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(requ[1A[82G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(requi[1A[83G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(requir[1A[84G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require[1A[85G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require([1A[86G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('[1A[87G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('f[1A[88G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs[1A[89G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs'[1A[90G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs')[1A[91G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').[1A[92G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').r[1A[93G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').re[1A[94G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').rea[1A[95G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').read[1A[96G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readF[1A[97G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFi[1A[98G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFil[1A[99G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFile[1A[100G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileS[1A[101G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSy[1A[102G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSyn[1A[103G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync[1A[104G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync([1A[105G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('[1A[106G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('.[1A[107G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./[1A[108G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./d[1A[109G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./da[1A[110G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./dat[1A[111G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data[1A[112G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/[1A[113G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/w[1A[114G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/we[1A[115G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/wea[1A[116G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weap[1A[117G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapo[1A[118G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon[1A[119G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-[1A[120G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-c[1A[121G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-co[1A[122G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-con[1A[123G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-conf[1A[124G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-confi[1A[125G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config[1A[126G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.[1A[127G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.j[1A[128G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.js[1A[129G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.jso[1A[130G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json[1A[131G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json'[1A[132G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json',[1A[133G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','[1A[134G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','u[1A[135G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','ut[1A[136G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf[1A[137G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8[1A[138G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'[1A[139G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8')[1A[140G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'))[1A[141G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));[1A[142G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));[1A[143G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8')); c[1A[144G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8')); co[1A[145G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8')); con[1A[146G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8')); cons[1A[147G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+conso[1A[148G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+consol[1A[149G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console[1A[150G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.[1A[151G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.l[1A[152G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.lo[1A[153G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log[1A[154G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log([1A[155G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('[1A[156G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('C[1A[157G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CO[1A[158G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CON[1A[159G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONF[1A[160G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFI
+[2A[161G[2B[2K[1A[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG[2A[162G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_[2A[163G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_O[2A[164G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK[2A[165G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK'[2A[166G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')[2A[167G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}[2A[168G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}c[2A[169G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}ca[2A[170G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}cat[2A[171G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catc[2A[172G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch[2A[173G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch([2A[174G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e[2A[175G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e)[2A[176G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){[2A[177G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){c[2A[178G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){co[2A[179G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){con[2A[180G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){cons[2A[181G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){conso[2A[182G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){consol[2A[183G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console[2A[184G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.[2A[185G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.e[2A[186G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.er[2A[187G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.err[2A[188G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.erro[2A[189G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error[2A[190G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error([2A[191G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('[2A[192G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('C[2A[193G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CO[2A[194G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CON[2A[195G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONF[2A[196G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFI[2A[197G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG[2A[198G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_[2A[199G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_E[2A[200G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ER[2A[201G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR[2A[202G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR'[2A[203G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',[2A[204G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e[2A[205G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.[2A[206G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.m[2A[207G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.me[2A[208G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.mes[2A[209G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.mess[2A[210G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.messa[2A[211G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.messag[2A[212G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.message[2A[213G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.message)[2A[214G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.message)}[2A[215G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? (Y/n)
+JSON.parse(require('fs').readFileSync('./data/weapon-config.json','utf8'));
+console.log('CONFIG_OK')}catch(e){console.error('CONFIG_ERR',e.message)}"[2A[216G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 把[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 把输[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 把输出[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 把输出贴[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 把输出贴回[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 把输出贴回。[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4[62G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4) 临[66G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4) 临时[68G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4) 临时排[70G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4) 临时排除[72G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4) 临时排除防[74G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4) 临时排除防护[76G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4) 临时排除防护软[78G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4) 临时排除防护软件[80G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干[82G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干扰[84G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干扰（[86G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干扰（W[87G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干扰（Wi[88G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干扰（Win[89G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干扰（Wind[90G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干扰（Windo[91G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干扰（Window
+[1A[92G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干扰（Windows[1A[93G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 4)
+临时排除防护软件干扰（Windows）[1A[95G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -[62G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 以[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 以管[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 以管理[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 以管理员[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 以管理员身[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 以管理员身份[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 以管理员身份运[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 以管理员身份运行[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 以管理员身份运行终[81G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端[83G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并[85G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短[87G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期[89G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁[91G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用[93G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/[94G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排[96G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除
+[1A[98G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项[1A[100G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目[1A[102G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目[1A[104G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录[1A[106G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于[1A[108G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于[1A[109G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 W[1A[110G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Wi[1A[111G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Win[1A[112G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Wind[1A[113G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windo[1A[114G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Window[1A[115G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows[1A[116G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows[1A[117G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows D[1A[118G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows De[1A[119G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Def[1A[120G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defe[1A[121G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defen[1A[122G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defend[1A[123G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defende[1A[124G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender[1A[125G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender[1A[126G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /[1A[127G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /[1A[128G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender / 杀[1A[130G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender / 杀毒[1A[132G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender / 杀毒软[1A[134G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender / 杀毒软件[1A[136G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender / 杀毒软件，[1A[138G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender / 杀毒软件，或[1A[140G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender / 杀毒软件，或者[1A[142G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直[1A[144G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接[1A[146G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以[1A[148G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管[1A[150G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理[1A[152G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员[1A[154G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启[1A[156G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动[1A[158G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动[1A[159G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 v[1A[160G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 ve[1A[161G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 ver[1A[162G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 verc[1A[163G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 verce[1A[164G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 vercel[1A[165G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 vercel[1A[166G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 vercel d[1A[167G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 vercel de[1A[168G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 vercel dev[1A[169G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -
+以管理员身份运行终端并短期禁用/排除项目目录于 Windows Defender /
+杀毒软件，或者直接以管理员启动 vercel dev：[1A[171G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? #[62G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? #[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # P[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # Po[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # Pow[66G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # Powe[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # Power[68G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerS[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerSh[70G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerShe[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerShel[72G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerShell[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerShell[74G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerShell ([75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerShell (管[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerShell (管理[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerShell (管理员[81G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # PowerShell
+(管理员)[82G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? S[62G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? St[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Sta[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Star[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start[66G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-P[68G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Pr[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Pro[70G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Proc[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Proce[72G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Proces[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process[74G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -[76G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -V[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Ve[78G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Ver[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb[80G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+[1A[81G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+r[1A[82G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+ru[1A[83G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+run[1A[84G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runA[1A[85G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs[1A[86G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs[1A[87G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs c[1A[88G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cm[1A[89G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd[1A[90G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd[1A[91G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -[1A[92G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -A[1A[93G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -Ar[1A[94G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -Arg[1A[95G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -Argu[1A[96G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -Argum[1A[97G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -Argume[1A[98G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -Argumen[1A[99G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -Argument[1A[100G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentL[1A[101G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentLi[1A[102G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentLis[1A[103G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList[1A[104G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList[1A[105G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '[1A[106G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/[1A[107G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c[1A[108G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c,[1A[109G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c,[1A[110G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "[1A[111G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "c[1A[112G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd[1A[113G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd[1A[114G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /[1A[115G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d[1A[116G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d[1A[117G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E[1A[118G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:[1A[119G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\[1A[120G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\V[1A[121G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\Ve[1A[122G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\Ver[1A[123G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\Verc[1A[124G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\Verce[1A[125G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\Vercel[1A[126G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelW[1A[127G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWo[1A[128G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWor[1A[129G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWork[1A[130G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkP[1A[131G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPa[1A[132G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPat[1A[133G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath[1A[134G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\[1A[135G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\s[1A[136G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\se[1A[137G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\ser[1A[138G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\serv[1A[139G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\serve[1A[140G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server[1A[141G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\[1A[142G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\s[1A[143G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\se[1A[144G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\ser[1A[145G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\serv[1A[146G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\serve[1A[147G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\server[1A[148G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\serverc[1A[149G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\serverco[1A[150G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercod[1A[151G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode[1A[152G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode[1A[153G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &[1A[154G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&[1A[155G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&[1A[156G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode && v[1A[157G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode && ve[1A[158G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode && ver[1A[159G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode && verc[1A[160G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode && verce
+[2A[161G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel[2A[162G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel[2A[163G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel d[2A[164G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel de[2A[165G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev[2A[166G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev[2A[167G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev -[2A[168G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev --[2A[169G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev --d[2A[170G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev --de[2A[171G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev --deb[2A[172G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev --debu[2A[173G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev --debug[2A[174G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev --debug"[2A[175G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? Start-Process -Verb
+runAs cmd -ArgumentList '/c, "cd /d E:\VercelWorkPath\server\servercode &&
+vercel dev --debug"'[2A[176G[2B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用[72G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 A[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV[74G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV 后[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV 后问[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV 后问题[81G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消[83G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失[85G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失，[87G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失，说[89G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失，说明[91G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失，说明是[93G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失，说明是杀[95G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失，说明是杀进
+[1A[97G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失，说明是杀进程[1A[99G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失，说明是杀进程导[1A[101G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失，说明是杀进程导致[1A[103G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 如果在禁用 AV
+后问题消失，说明是杀进程导致。[1A[105G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5[62G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5) 若[66G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5) 若上[68G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5) 若上述[70G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5) 若上述都[72G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5) 若上述都没[74G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5) 若上述都没报[76G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5) 若上述都没报错[78G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5) 若上述都没报错，[80G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝[82G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试[84G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在[86G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本[88G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地[90G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直[92G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接[94G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运[96G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行
+[1A[98G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一[1A[100G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个[1A[102G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个[1A[103G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 m[1A[104G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 mi[1A[105G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 min[1A[106G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 mini[1A[107G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minim[1A[108G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minima[1A[109G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal[1A[110G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal[1A[111G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal h[1A[112G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal ha[1A[113G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal han[1A[114G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal hand[1A[115G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handl[1A[116G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handle[1A[117G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler[1A[118G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler[1A[119G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来[1A[121G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确[1A[123G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认[1A[125G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认[1A[126G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @[1A[127G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @v[1A[128G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @ve[1A[129G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @ver[1A[130G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @verc[1A[131G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @verce[1A[132G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel[1A[133G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/[1A[134G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/n[1A[135G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/no[1A[136G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/nod[1A[137G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node[1A[138G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node[1A[139G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node b[1A[140G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node bu[1A[141G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node bui[1A[142G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node buil[1A[143G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node build[1A[144G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builde[1A[145G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder[1A[146G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder[1A[147G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder 本[1A[149G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder 本身[1A[151G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder 本身是[1A[153G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder 本身是否[1A[155G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder 本身是否能[1A[157G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder 本身是否能稳[1A[159G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder 本身是否能稳定[1A[161G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder 本身是否能稳定运[1A[163G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder 本身是否能稳定运行[1A[165G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 5)
+若上述都没报错，尝试在本地直接运行一个 minimal handler 来确认 @vercel/node
+builder 本身是否能稳定运行：[1A[167G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? #[62G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? #[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件[76G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件 s[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件 se[78G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件 ser[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件 serv[80G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件 serve[81G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+server[82G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+serverc[83G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+serverco[84G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercod[85G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode[86G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/
+[1A[87G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/a[1A[88G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/ap[1A[89G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api[1A[90G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/[1A[91G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_[1A[92G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_h[1A[93G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_he[1A[94G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_hea[1A[95G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_heal[1A[96G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_healt[1A[97G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health[1A[98G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.[1A[99G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.j[1A[100G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js[1A[101G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js[1A[102G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内[1A[104G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容[1A[106G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为[1A[108G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导[1A[110G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出[1A[112G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简[1A[114G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单[1A[116G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单[1A[117G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 h[1A[118G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 ha[1A[119G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 han[1A[120G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 hand[1A[121G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handl[1A[122G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handle[1A[123G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler[1A[124G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（[1A[126G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你[1A[128G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也[1A[130G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可[1A[132G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以[1A[134G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手[1A[136G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手动[1A[138G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手动创[1A[140G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手动创建[1A[142G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手动创建）[1A[144G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手动创建），[1A[146G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手动创建），然[1A[148G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手动创建），然后[1A[150G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手动创建），然后调[1A[152G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手动创建），然后调用[1A[154G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? # 创建临时文件
+servercode/api/_health.js 内容为导出简单 handler（你也可以手动创建），然后调用：[1A[156G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? c[62G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? cu[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? cur[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl[66G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v[68G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v h[70G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v ht[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v htt[72G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v http[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v http:[74G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v http:/[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v http://[76G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v http://l[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v http://lo[78G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v http://loc[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v http://loca[80G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v http://local
+[1A[81G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localh[1A[82G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localho[1A[83G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhos[1A[84G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost[1A[85G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:[1A[86G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3[1A[87G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:30[1A[88G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:300[1A[89G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000[1A[90G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/[1A[91G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/a[1A[92G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/ap[1A[93G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/api[1A[94G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/api/[1A[95G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/api/_[1A[96G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/api/_h[1A[97G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/api/_he[1A[98G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/api/_hea[1A[99G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/api/_heal[1A[100G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/api/_healt[1A[101G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? curl -v
+http://localhost:3000/api/_health[1A[102G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? （[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? （如[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? （如能[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? （如能稳[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? （如能稳定[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? （如能稳定响[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? （如能稳定响应[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? （如能稳定响应，[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? （如能稳定响应，说[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? （如能稳定响应，说明[81G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问[83G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题[85G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题在[87G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题在某[89G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题在某个[91G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题在某个具[93G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题在某个具体[95G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题在某个具体函[97G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题在某个具体函数[99G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题在某个具体函数实
+[1A[101G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题在某个具体函数实现[1A[103G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+（如能稳定响应，说明问题在某个具体函数实现）[1A[105G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我需[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我需要[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我需要的[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我需要的输[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我需要的输出[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -[62G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1[68G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的[76G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的 v[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的 ve[78G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的 ver[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的 verc[80G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的 verce[81G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel[82G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-[83G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-d[84G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-de[85G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev
+[1A[86G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.[1A[87G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.l[1A[88G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.lo[1A[89G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log[1A[90G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log[1A[91G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中[1A[93G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中[1A[94G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “[1A[95G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “K[1A[96G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Ki[1A[97G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Kil[1A[98G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Kill[1A[99G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killi[1A[100G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killin[1A[101G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing[1A[102G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing[1A[103G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing b[1A[104G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing bu[1A[105G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing bui[1A[106G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing buil[1A[107G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing build[1A[108G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builde[1A[109G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder[1A[110G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder”[1A[111G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder”[1A[112G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder” 前[1A[114G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder” 前后[1A[116G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder” 前后[1A[117G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder” 前后 ~[1A[118G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder” 前后 ~4[1A[119G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder” 前后 ~40[1A[120G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder” 前后 ~40[1A[121G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤1 生成的
+vercel-dev.log 中 “Killing builder” 前后 ~40 行[1A[123G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -[62G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2[68G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的[72G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 i[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 im[74G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 imp[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 impo[76G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 impor[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import[78G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import 命[81G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令[83G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令输[85G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令输出[87G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令输出（
+[1A[89G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令输出（若[1A[91G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令输出（若有[1A[93G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令输出（若有错[1A[95G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令输出（若有错误[1A[97G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令输出（若有错误堆[1A[99G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令输出（若有错误堆栈[1A[101G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤2 的 import
+命令输出（若有错误堆栈）[1A[103G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -[62G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? -[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3[68G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的[72G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 c[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 co[74G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 con[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 conf[76G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 confi[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 config[78G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 config[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 config 校[81G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 config
+校验[83G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 config
+校验输[85G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? - 步骤3 的 config
+校验输出[87G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? yes[64G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我[63G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会[65G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基[67G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于[69G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这[71G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些[73G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直[75G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接[77G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指[79G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出[81G[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具[83G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体[85G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出[87G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错[89G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行[91G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并[93G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给[95G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出[97G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修[99G[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复
+[1A[101G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（[1A[103G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最[1A[105G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常[1A[107G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见[1A[109G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修[1A[111G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复[1A[113G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：[1A[115G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修[1A[117G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正[1A[119G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语[1A[121G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法[1A[123G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或[1A[125G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异[1A[127G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常[1A[129G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、[1A[131G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在[1A[133G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函[1A[135G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数[1A[137G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶[1A[139G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部[1A[141G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出
+具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部避[1A[143G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出
+具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部避免[1A[145G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出
+具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部避免同[1A[147G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出
+具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部避免同步[1A[149G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出
+具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部避免同步阻[1A[151G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出
+具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部避免同步阻塞[1A[153G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出
+具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部避免同步阻塞/[1A[154G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出
+具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部避免同步阻塞/抛[1A[156G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出
+具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部避免同步阻塞/抛异[1A[158G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”? 我会基于这些直接指出
+具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部避免同步阻塞/抛异常[1A[160G[1B[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、[1A[162G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或[1A[164G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在[1A[166G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在[1A[167G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 A[1A[168G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV[1A[169G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV[1A[170G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV 中[1A[172G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV 中添[1A[174G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV 中添加[1A[176G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV 中添加目[1A[178G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV 中添加目录[1A[180G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV 中添加目录例[1A[182G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV 中添加目录例外[1A[184G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV 中添加目录例外）[1A[186G[1B[2K[1A[2K[1A[2K[G? Set up and develop “E:\VercelWorkPath\server\servercode”?
+我会基于这些直接指出具体出错行并给出修复（最常见修复：修正语法或异常、在函数顶部
+避免同步阻塞/抛异常、或在 AV 中添加目录例外）。[1A[188G[1B
+[?25h> [debug] [2025-10-05T11:11:43.047Z] Spinner invoked (Loading scopes…) with a 1000ms delay
+> [debug] [2025-10-05T11:11:43.054Z] #1 → GET https://api.vercel.com/v2/user
+> [debug] [2025-10-05T11:11:43.055Z] #2 → GET https://api.vercel.com/v1/teams
+> [debug] [2025-10-05T11:11:43.993Z] #1 ← 200 OK: sfo1::st5ln-1759662703977-1fc08d0963d8 [939ms]
+> [debug] [2025-10-05T11:11:44.015Z] #2 ← 200 OK: sfo1::m68ng-1759662703975-3a7fe6d24cff [960ms]
+? Which scope should contain your project? (Use arrow keys)
+> sketch wang's projects[?25l[25G
+[?25hError: User force closed the prompt with 0 null
+> [debug] [2025-10-05T11:11:48.095Z] Error: User force closed the prompt with 0 null
+    at D:\Program Files\nodejs\node_global\node_modules\vercel\dist\index.js:37261:18
+    at Emitter.emit (D:\Program Files\nodejs\node_global\node_modules\vercel\dist\index.js:36958:17)
+    at SignalExit.processEmit_fn (D:\Program Files\nodejs\node_global\node_modules\vercel\dist\index.js:37111:38)
+    at __privateGet.emit (D:\Program Files\nodejs\node_global\node_modules\vercel\dist\index.js:37061:70)
+    at process.topLevelDomainCallback (node:domain:161:15)
+    at process.callbackTrampoline (node:internal/async_hooks:128:24)

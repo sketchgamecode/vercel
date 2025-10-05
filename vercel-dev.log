@@ -1,0 +1,102 @@
+> [debug] [2025-10-05T11:24:24.397Z] Found config in file "E:\VercelWorkPath\server\vercel.json"
+Vercel CLI 46.0.1
+> [debug] [2025-10-05T11:24:24.401Z] user supplied known subcommand: "dev"
+> [debug] [2025-10-05T11:24:24.663Z] Found ".git\config" - detected "E:\VercelWorkPath\server" as repo root
+> [debug] [2025-10-05T11:24:24.668Z] Spinner invoked (Retrieving project…) with a 1000ms delay
+> [debug] [2025-10-05T11:24:24.675Z] #1 → GET https://api.vercel.com/teams/team_I5glvce1pri9NsrB3MuNnkF8?teamId=team_I5glvce1pri9NsrB3MuNnkF8
+> [debug] [2025-10-05T11:24:24.677Z] #2 → GET https://api.vercel.com/v9/projects/prj_ZHQARga2YAHzbUOxZWHSGY4vtHWS?teamId=team_I5glvce1pri9NsrB3MuNnkF8
+> [debug] [2025-10-05T11:24:25.574Z] #2 ← 200 OK: sfo1::6qgs9-1759663465602-383cd1337ca9 [897ms]
+> [debug] [2025-10-05T11:24:25.635Z] #1 ← 200 OK: sfo1::l9x4g-1759663465605-d11c6490ef4f [960ms]
+> [debug] [2025-10-05T11:24:25.636Z] Fetching Environment Variables of project prj_ZHQARga2YAHzbUOxZWHSGY4vtHWS and target undefined
+> [debug] [2025-10-05T11:24:25.636Z] #3 → GET https://api.vercel.com/v3/env/pull/prj_ZHQARga2YAHzbUOxZWHSGY4vtHWS?source=vercel-cli%3Adev&teamId=team_I5glvce1pri9NsrB3MuNnkF8
+> [debug] [2025-10-05T11:24:25.927Z] #3 ← 200 OK: sfo1::l9x4g-1759663465963-64b0ea2e1462 [291ms]
+> [debug] [2025-10-05T11:24:25.931Z] VERCEL_OIDC_TOKEN expires in 43199s; refreshing in 42299s
+> [debug] [2025-10-05T11:24:25.936Z] Reading `package.json` file
+> [debug] [2025-10-05T11:24:25.936Z] Reading `vercel.json` file
+> [debug] [2025-10-05T11:24:25.936Z] No `vercel.json` file present
+> [debug] [2025-10-05T11:24:25.951Z] Locating files E:\VercelWorkPath\server\servercode
+> [debug] [2025-10-05T11:24:25.952Z] Ignoring E:\VercelWorkPath\server\servercode\.env.local
+> [debug] [2025-10-05T11:24:25.952Z] Ignoring E:\VercelWorkPath\server\servercode\.gitignore
+> [debug] [2025-10-05T11:24:25.952Z] Ignoring E:\VercelWorkPath\server\servercode\.vercel
+> [debug] [2025-10-05T11:24:25.953Z] Ignoring E:\VercelWorkPath\server\servercode\node_modules
+> [debug] [2025-10-05T11:24:25.954Z] Locating files E:\VercelWorkPath\server\servercode [3ms]
+> [debug] [2025-10-05T11:24:25.967Z] Locating files E:\VercelWorkPath\server\servercode
+> [debug] [2025-10-05T11:24:25.967Z] Ignoring E:\VercelWorkPath\server\servercode\.env.local
+> [debug] [2025-10-05T11:24:25.967Z] Ignoring E:\VercelWorkPath\server\servercode\.gitignore
+> [debug] [2025-10-05T11:24:25.967Z] Ignoring E:\VercelWorkPath\server\servercode\.vercel
+> [debug] [2025-10-05T11:24:25.967Z] Ignoring E:\VercelWorkPath\server\servercode\node_modules
+> [debug] [2025-10-05T11:24:25.968Z] Locating files E:\VercelWorkPath\server\servercode [1ms]
+> [debug] [2025-10-05T11:24:26.151Z] Imported Builder "@vercel/node" from "D:\Program Files\nodejs\node_global\node_modules\vercel\node_modules\@vercel\node"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/admin/config" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/admin/preview-weapon" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/admin/seed" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/base/build" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/base/set_home" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/map/scan" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/weapon/add" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/weapon/generate" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/weapon/info" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/weapon/inventory" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/collect" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/move" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "api/sync" with "@vercel/node@latest"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "admin.html" with "@vercel/static"
+> [debug] [2025-10-05T11:24:26.155Z] Adding build match for "test.txt" with "@vercel/static"
+> Ready! Available at http://localhost:3000
+> [debug] [2025-10-05T11:24:26.194Z] OIDC token refresh was aborted
+> [debug] [2025-10-05T11:24:26.389Z] Vercel CLI 46.0.1
+
+> [debug] [2025-10-05T11:24:27.224Z] Telemetry event tracked
+> [debug] [2025-10-05T11:24:28.204Z] Telemetry subprocess killed due to timeout
+> [debug] [2025-10-05T11:24:28.214Z] Telemetry subprocess exited with code null
+> [debug] [2025-10-05T11:24:35.736Z] OPTIONS /api/weapon/generate
+> [debug] [2025-10-05T11:24:35.736Z] Reading `package.json` file
+> [debug] [2025-10-05T11:24:35.736Z] Reading `vercel.json` file
+> [debug] [2025-10-05T11:24:35.736Z] No `vercel.json` file present
+> [debug] [2025-10-05T11:24:35.737Z] Locating files E:\VercelWorkPath\server\servercode
+> [debug] [2025-10-05T11:24:35.737Z] Ignoring E:\VercelWorkPath\server\servercode\.env.local
+> [debug] [2025-10-05T11:24:35.737Z] Ignoring E:\VercelWorkPath\server\servercode\.gitignore
+> [debug] [2025-10-05T11:24:35.737Z] Ignoring E:\VercelWorkPath\server\servercode\.vercel
+> [debug] [2025-10-05T11:24:35.737Z] Ignoring E:\VercelWorkPath\server\servercode\node_modules
+> [debug] [2025-10-05T11:24:35.737Z] Locating files E:\VercelWorkPath\server\servercode [0ms]
+> [debug] [2025-10-05T11:24:35.745Z] Imported Builder "@vercel/node" from "D:\Program Files\nodejs\node_global\node_modules\vercel\node_modules\@vercel\node"
+> [debug] [2025-10-05T11:24:36.388Z] Proxying to "@vercel/node" dev server (port=54975, pid=22028)
+(node:24652) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+> [debug] [2025-10-05T11:24:36.406Z] Killing builder dev server with PID 22028
+> [debug] [2025-10-05T11:24:36.406Z] Running shutdown callback for PID 22028
+> [debug] [2025-10-05T11:24:36.407Z] POST /api/weapon/generate
+> [debug] [2025-10-05T11:24:36.408Z] Reading `package.json` file
+> [debug] [2025-10-05T11:24:36.408Z] Reading `vercel.json` file
+> [debug] [2025-10-05T11:24:36.408Z] No `vercel.json` file present
+> [debug] [2025-10-05T11:24:36.408Z] Locating files E:\VercelWorkPath\server\servercode
+> [debug] [2025-10-05T11:24:36.408Z] Ignoring E:\VercelWorkPath\server\servercode\.env.local
+> [debug] [2025-10-05T11:24:36.408Z] Ignoring E:\VercelWorkPath\server\servercode\.gitignore
+> [debug] [2025-10-05T11:24:36.408Z] Ignoring E:\VercelWorkPath\server\servercode\.vercel
+> [debug] [2025-10-05T11:24:36.408Z] Ignoring E:\VercelWorkPath\server\servercode\node_modules
+> [debug] [2025-10-05T11:24:36.409Z] Locating files E:\VercelWorkPath\server\servercode [1ms]
+> [debug] [2025-10-05T11:24:36.411Z] Imported Builder "@vercel/node" from "D:\Program Files\nodejs\node_global\node_modules\vercel\node_modules\@vercel\node"
+> [debug] [2025-10-05T11:24:36.964Z] Proxying to "@vercel/node" dev server (port=54983, pid=512)
+> [debug] [2025-10-05T11:24:36.982Z] Killing builder dev server with PID 512
+> [debug] [2025-10-05T11:24:36.982Z] Running shutdown callback for PID 512
+> [debug] [2025-10-05T11:26:05.282Z] Filesystem watcher notified of 1 events
+> [debug] [2025-10-05T11:26:05.282Z] Reading `package.json` file
+> [debug] [2025-10-05T11:26:05.282Z] Reading `vercel.json` file
+> [debug] [2025-10-05T11:26:05.282Z] No `vercel.json` file present
+> [debug] [2025-10-05T11:26:05.283Z] Locating files E:\VercelWorkPath\server\servercode
+> [debug] [2025-10-05T11:26:05.283Z] Ignoring E:\VercelWorkPath\server\servercode\.env.local
+> [debug] [2025-10-05T11:26:05.283Z] Ignoring E:\VercelWorkPath\server\servercode\.gitignore
+> [debug] [2025-10-05T11:26:05.283Z] Ignoring E:\VercelWorkPath\server\servercode\.vercel
+> [debug] [2025-10-05T11:26:05.283Z] Ignoring E:\VercelWorkPath\server\servercode\node_modules
+> [debug] [2025-10-05T11:26:05.284Z] Locating files E:\VercelWorkPath\server\servercode [1ms]
+> [debug] [2025-10-05T11:26:05.286Z] File created: api/_health.js
+> [debug] [2025-10-05T11:26:05.286Z] Reading `package.json` file
+> [debug] [2025-10-05T11:26:05.286Z] Reading `vercel.json` file
+> [debug] [2025-10-05T11:26:05.286Z] No `vercel.json` file present
+> [debug] [2025-10-05T11:26:05.286Z] Locating files E:\VercelWorkPath\server\servercode
+> [debug] [2025-10-05T11:26:05.286Z] Ignoring E:\VercelWorkPath\server\servercode\.env.local
+> [debug] [2025-10-05T11:26:05.286Z] Ignoring E:\VercelWorkPath\server\servercode\.gitignore
+> [debug] [2025-10-05T11:26:05.286Z] Ignoring E:\VercelWorkPath\server\servercode\.vercel
+> [debug] [2025-10-05T11:26:05.286Z] Ignoring E:\VercelWorkPath\server\servercode\node_modules
+> [debug] [2025-10-05T11:26:05.287Z] Locating files E:\VercelWorkPath\server\servercode [1ms]
+> [debug] [2025-10-05T11:26:05.289Z] Imported Builder "@vercel/node" from "D:\Program Files\nodejs\node_global\node_modules\vercel\node_modules\@vercel\node"
