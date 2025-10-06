@@ -1,1 +1,16 @@
-{"projectId":"prj_ZHQARga2YAHzbUOxZWHSGY4vtHWS","orgId":"team_I5glvce1pri9NsrB3MuNnkF8","projectName":"raidrpg"}
+{
+  "projectId": "prj_ZHQARga2YAHzbUOxZWHSGY4vtHWS",
+  "orgId": "team_I5glvce1pri9NsrB3MuNnkF8",
+  "projectName": "raidrpg",
+  "settings": {
+    "createdAt": 1755182084562,
+    "framework": null,
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "22.x"
+  }
+}
