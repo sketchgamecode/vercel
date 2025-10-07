@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "eslint": "^8.57.0",
-    "eslint-config-next": "^14.2.15"
+    "eslint-config-next": "^14.2.15",
+    "yargs": "^17.7.2"
   }
 }
