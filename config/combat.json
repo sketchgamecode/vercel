@@ -1,0 +1,8 @@
+{
+  "BASE_HIT": 0.85,
+  "baseCrit": 0.05,
+  "baseCritDamage": 0.5,
+  "damageIntervalRatio": [0.85, 1.15],
+  "luckAlpha": 0.25,
+  "luckThresholdForMax": 9
+}

@@ -1,0 +1,6 @@
+{
+  "W0": { "roundsPerAttack":1, "attacksPerTrigger":1, "sourceAttr":"str", "conversionPct":1.0 },
+  "W1": { "roundsPerAttack":1, "attacksPerTrigger":2, "sourceAttr":"agi", "conversionPct":0.5 },
+  "W2": { "roundsPerAttack":2, "attacksPerTrigger":1, "sourceAttr":"int", "conversionPct":2.0 },
+  "W3": { "roundsPerAttack":5, "attacksPerTrigger":1, "sourceAttr":"con", "conversionPct":5.0 }
+}

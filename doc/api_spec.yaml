@@ -1,0 +1,214 @@
+openapi: 3.0.3
+info:
+  title: Weapon Server API (contract)
+  version: 1.0.0
+  description: Minimal API contract for equip/unequip, loot claim and combat simulation used by the team for implementation.
+
+paths:
+  /api/equip:
+    post:
+      summary: Equip an item to a player
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EquipRequest'
+      responses:
+        '200':
+          description: Player equipped successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EquipResponse'
+        '400':
+          description: Bad request
+
+  /api/unequip:
+    post:
+      summary: Unequip an item from a player
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UnequipRequest'
+      responses:
+        '200':
+          description: Player unequipped successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnequipResponse'
+        '400':
+          description: Bad request
+
+  /api/loot/claim:
+    post:
+      summary: Claim loot dropped by an enemy (internal or public endpoint)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LootClaimRequest'
+      responses:
+        '200':
+          description: Loot claimed and items created for player
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LootClaimResponse'
+
+  /api/combat/simulate:
+    post:
+      summary: Simulate a combat between two characters (server-side deterministic simulation)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CombatSimRequest'
+      responses:
+        '200':
+          description: Combat result and event log
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CombatSimResponse'
+
+components:
+  schemas:
+    EquipRequest:
+      type: object
+      required: [playerId, itemId]
+      properties:
+        playerId:
+          type: string
+        itemId:
+          type: string
+    EquipResponse:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        player:
+          $ref: '#/components/schemas/Player'
+
+    UnequipRequest:
+      type: object
+      required: [playerId, slot]
+      properties:
+        playerId:
+          type: string
+        slot:
+          type: string
+    UnequipResponse:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        player:
+          $ref: '#/components/schemas/Player'
+
+    LootClaimRequest:
+      type: object
+      required: [playerId, enemyId]
+      properties:
+        playerId:
+          type: string
+        enemyId:
+          type: string
+        seed:
+          type: integer
+          description: optional seed for deterministic roll
+    LootClaimResponse:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        droppedItems:
+          type: array
+          items:
+            $ref: '#/components/schemas/Item'
+
+    CombatSimRequest:
+      type: object
+      required: [attacker, defender]
+      properties:
+        attacker:
+          $ref: '#/components/schemas/CharacterInput'
+        defender:
+          $ref: '#/components/schemas/CharacterInput'
+        seed:
+          type: integer
+          description: optional seed for deterministic simulation
+    CombatSimResponse:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        winner:
+          type: string
+          description: 'playerId or enemyId or "draw"'
+        events:
+          type: array
+          items:
+            type: object
+            description: 'event log entries (turn-by-turn)'
+
+    CharacterInput:
+      type: object
+      required: [id, stats, derived, hp]
+      properties:
+        id:
+          type: string
+        stats:
+          type: object
+        derived:
+          type: object
+        hp:
+          type: integer
+        equip:
+          type: object
+          description: mapping of slot->itemId (or resolved item) - server will resolve if itemId provided
+
+    Player:
+      type: object
+      properties:
+        playerId:
+          type: string
+        name:
+          type: string
+        level:
+          type: integer
+        stats:
+          type: object
+        derived:
+          type: object
+        hp:
+          type: integer
+        equip:
+          type: object
+        resources:
+          type: object
+
+    Item:
+      type: object
+      properties:
+        itemId:
+          type: string
+        owner:
+          type: string
+          nullable: true
+        slot:
+          type: string
+        baseTemplate:
+          type: string
+        resolved:
+          type: object
+        createdAt:
+          type: string
+          format: date-time
+        seed:
+          type: integer

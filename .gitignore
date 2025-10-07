@@ -1,3 +1,36 @@
+# Node and Next.js
+node_modules/
+.next/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*.local
+.env.local
+.env.production
+.env.development
+
+# Vercel/other
+.vercel/
+vercel-dev.log
+vercel-local.log
+
+# IDE
+.vscode/
+.idea/
+
+# Optional local artifacts
+weapon_data.json
 # Logs
 logs
 *.log

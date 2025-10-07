@@ -1,0 +1,9 @@
+{
+  "id": "enemy_goblin_01",
+  "template": "goblin_scout",
+  "level": 3,
+  "equipmentInstances": [
+    { "itemId": "w_shortblade_inst_1", "ref": "w_shortblade", "resolved": { "powerFlat": 3, "powerPct": 0.05 } },
+    { "itemId": "boots_inst_1", "ref": "arm_leather_boots", "resolved": { "defFlat": 2, "hpFlat": 5 } }
+  ]
+}

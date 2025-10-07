@@ -1,0 +1,21 @@
+{
+  "affixes": [
+    { "id": "a_sharp", "name": "锋利的", "slotFilter": ["weapon_main","weapon_off"], "rarity": "uncommon", "effects": [{"key":"powerFlat","value":2}] },
+    { "id": "a_lucky", "name": "幸运的", "slotFilter": ["accessory1"], "rarity": "rare", "effects": [{"key":"extraLuck","value":1}] }
+  ],
+  "items": [
+    { "id": "w_shortblade", "name": "短刃", "slot": "weapon_main", "baseType": "W1", "powerFlat": 3, "powerPct": 0.05, "rarity": "common", "affixPool": "common_weapon_affixes" },
+    { "id": "arm_leather_boots", "name": "皮靴", "slot": "feet", "powerFlat": 0, "defFlat": 2, "hpFlat": 5, "rarity": "common", "affixPool": "common_armor_affixes" },
+    { "id": "acc_luck_charm", "name": "幸运护符", "slot": "accessory1", "extraLuck": 2, "rarity": "rare", "affixPool": "rare_accessory_affixes" }
+  ],
+  "dropPools": {
+    "goblin_scout": {
+      "weapon_main": { "common": 60, "uncommon": 30, "rare": 10 },
+      "feet": { "common": 70, "uncommon": 25, "rare": 5 }
+    },
+    "forest_bandit": {
+      "weapon_main": { "common": 40, "uncommon": 40, "rare": 20 },
+      "hands": { "common": 70, "uncommon": 25, "rare": 5 }
+    }
+  }
+}
