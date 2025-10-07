@@ -1,0 +1,7 @@
+{
+  "players": [
+    { "playerId": "p1", "level": 1, "stats": { "str": 20, "int": 5, "con": 8, "agi": 7, "end": 6, "luck": 0 }, "equip": { "weapon": { "baseType": "W1", "powerFlat": 3, "powerPct": 0.05 } } },
+    { "playerId": "p2", "level": 1, "stats": { "str": 5, "int": 2, "con": 5, "agi": 3, "end": 4, "luck": 0 }, "equip": { "weapon": { "baseType": "W0" } } }
+  ],
+  "seed": 424242
+}
